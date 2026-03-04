@@ -6,7 +6,7 @@ import {
     LogOut, LogIn, UserPlus, ShieldCheck
 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://financetracker-2-3rob.onrender.com/api';
 
 function App() {
     const [user, setUser] = useState(JSON.parse(localStorage.getItem('user')));
